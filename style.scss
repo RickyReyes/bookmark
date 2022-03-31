@@ -56,7 +56,7 @@ a {
 
 .mobile-menu {
     overflow: hidden;
-    height: 100vh;
+    min-height: 100vh;
     min-width: 100vw;
     background-color: $very-dark-blue;
     opacity: .95;
