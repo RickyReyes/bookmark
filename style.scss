@@ -56,16 +56,15 @@ a {
 
 .mobile-menu {
     overflow: hidden;
-    min-height: 100vh;
+    height: 100vh;
     min-width: 100vw;
     background-color: $very-dark-blue;
     opacity: .95;
     position: fixed;
-    top: 0;
     transform: translateX(100%);
     transition: 0.5s transform ease;
     z-index: 2;
-	padding: 2.5rem 2rem 0;
+	padding: 2.5rem 2rem;
     .mobile-menu-header {
         display: flex;
         align-items: center;
