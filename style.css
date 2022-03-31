@@ -20,7 +20,7 @@ a {
 
 .mobile-menu {
   overflow: hidden;
-  min-height: 100vh;
+  min-height: 100%;
   min-width: 100vw;
   background-color: #252b46;
   opacity: .95;
