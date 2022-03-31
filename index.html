@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Bookmark landing page</title>
+  <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <img class="mobile-menu-logo" src="./images/logo-bookmark.svg" alt="">
+      <img class="mobile-menu-close" src="./images/icon-close.svg" alt="logo">
+    </div>
+    <ul class="mobile-menu-nav">
+      <li>Features</li>
+      <li>Pricing</li>
+      <li>Contact</li>
+      <li class="login-container"><a href="#" class="login">Login</a></li>
+    </ul>
+    <div class="mobile-social-logo-flex">
+      <img class="social-logo" src="/images/icon-facebook.svg" alt="facebook logo">
+      <img class="social-logo" src="/images/icon-twitter.svg" alt="twitter logo">
+    </div>
+  </div>
+  <!-- end mobile menu -->
+  <header>
+    <img src="./images/logo-bookmark.svg" alt="bookmark logo" class="logo header-logo">
+    <nav>
+      <ul class="header-nav">
+        <li>Features</li>
+        <li>Pricing</li>
+        <li>Contact</li>
+        <li><a href="#" class="login">Login</a></li>
+      </ul>
+    </nav>
+    <img src="./images/icon-hamburger.svg" alt="hamburger icon" class="hamburger">
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-img-container">
+        <img src="./images/illustration-hero.svg" alt="screen illustration" class="hero-img">
+        <div class="hero-img-shadow"></div>
+      </div>
+      <div class="hero-flex-left">
+        <h1>A Simple Bookmark Manager</h1>
+        <p class="hero-p">
+          A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="hero-cta-flex">
+          <div class="hero-cta-btn">Get it on Chrome</div>
+          <div class="hero-cta-btn">Get it on Firefox</div>
+        </div>
+      </div>
+    </section>
+    <section class="feature-section">
+      <h2>Features</h2>
+      <p class="feature-p">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      <ul class="feature-slider">
+        <li class="feature-tab selected">Simple Bookmarking</li>
+        <li class="feature-tab">Speedy Searching</li>
+        <li class="feature-tab">Easy Sharing</li>
+      </ul>
+      <div class="feature-flex">
+        <div class="feature-flex-left feature-img-container">
+          <img class="feature-img hero-img" src="./images/illustration-features-tab-1.svg" alt="laptop illustration">
+          <div class="feature-img-shadow"></div>
+        </div>
+        <div class="feature-flex-right">
+          <h2 class="feature-heading">Bookmark in one click</h2>
+          <p class="feature-desc">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+          <div class="btn feature-btn" disabled>More Info</div>
+        </div>
+      </div>
+    </section>
+    <section class="download-section">
+      <h2>Download the extension</h2>
+      <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      <div class="cards-flex">
+        <div class="card">
+          <div class="card-top">
+            <img src="./images/logo-chrome.svg" alt="chrome logo" class="card-logo">
+            <h3>Add to Chrome</h3>
+            <h4>Minimum version 62</h4>
+          </div>
+          <img src="./images/bg-dots.svg" alt="dots" class="dots">
+          <div class="card-bottom">
+            <button class="card-btn" href="#">Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <img src="./images/logo-firefox.svg" alt="firefox logo" class="card-logo">
+            <h3>Add to Firefox</h3>
+            <h4>Minimum version 55</h4>
+          </div>
+          <img src="./images/bg-dots.svg" alt="dots" class="dots">
+          <div class="card-bottom">
+            <button class="card-btn" href="#">Add & Install Extension</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-top">
+            <img src="./images/logo-opera.svg" alt="opera logo" class="card-logo">
+            <h3>Add to Opera</h3>
+            <h4>Minimum version 46</h4>
+          </div>
+          <img src="./images/bg-dots.svg" alt="dots" class="dots">
+          <div class="card-bottom">
+            <button class="card-btn">Add & Install Extension</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq-section">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
+      <p>Here are some of our FAQs. If you have any other questions you’d like 
+        answered please feel free to email us.</p>
+      <div class="faq-accordion">
+        <!-- code is in main.js -->
+      </div>
+      <button class="faq-btn" href="#" disabled>More Info</button>
+    </section>
+    <section class="footer-cta-section">
+      <small>35,000+ already joined</small>
+      <h2>Stay up-to-date with what we’re doing</h2>
+      <div class="footer-cta-flex">
+        <input  class="footer-cta-email" type="text" placeholder="Enter your email address">
+        <button class="footer-cta-btn">Contact Us</button>
+      </div>
+    </section>
+    <footer>
+      <img class="logo footer-logo" src="/images/logo-bookmark.svg" alt="bookmark logo" />
+      <div class="footer-nav-logo-flex">
+        <ul class="footer-nav">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+        </ul>
+        <div class="social-logo-flex">
+          <img class="social-logo" src="/images/icon-facebook.svg" alt="facebook logo">
+          <img class="social-logo" src="/images/icon-twitter.svg" alt="twitter logo">
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+</html>
