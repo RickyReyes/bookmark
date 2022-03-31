@@ -6,9 +6,11 @@ window.addEventListener('resize', hideHamburger);
 function hideHamburger(e) {
     if (window.innerWidth > 768) {
         $('.hamburger').style.display = 'none'
-        console.log('hello')
+        console.log($('body').style.position)
     } else {
         $('.hamburger').style.display = 'block'
+        $('body').style.position = 'relative';
+        console.log($('body').style.position)
     }
 }
 
@@ -25,7 +27,6 @@ $('.hamburger').addEventListener('click', showMobileMenu)
 
 function hideMobileMenu() {
     $('.mobile-menu-close').style.display = 'none'
-
     // let x = window.matchMedia("(min-width: 768px)")
     // if (x.matches) { // If media query matches
         $('.hamburger').style.display = 'block'
