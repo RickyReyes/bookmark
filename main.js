@@ -27,11 +27,7 @@ $('.hamburger').addEventListener('click', showMobileMenu)
 
 function hideMobileMenu() {
     $('.mobile-menu-close').style.display = 'none'
-    // let x = window.matchMedia("(min-width: 768px)")
-    // if (x.matches) { // If media query matches
-        $('.hamburger').style.display = 'block'
-    // }
-
+    $('.hamburger').style.display = 'block'
     $('.mobile-menu').style.transform = 'translateX(100%)'
     $('body').style.position = 'relative';
 }

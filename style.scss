@@ -48,8 +48,6 @@ html {
 	box-sizing: inherit;
 }
 
-
-
 a {
 	color: inherit;
 }
@@ -114,7 +112,7 @@ a {
                 color: white;
             }
         }
-        .login-container {
+        .mobile-login-container {
             width: 100%;
             border: 2px solid white;
             border-radius: 5px;
@@ -145,12 +143,6 @@ a {
     }
 }
 
-
-
-
-
-
-
 input:focus {
 	outline: none;
 }
@@ -167,9 +159,11 @@ header {
 	justify-content: space-between;
 	padding: 2.5rem 2rem 0;
 }
+
 .logo {
 	cursor: pointer;
 }
+
 .header-nav {
 	display: none;
     li {
@@ -580,6 +574,7 @@ footer {
 			display: none;
 		}
 	}
+	
 	.header-nav {
 		display: flex;
 		align-items: center;
@@ -602,12 +597,13 @@ footer {
 					color: white;
 					text-decoration: none;
 					border-radius: 5px;
+					border: 2px solid transparent;
 					&:visited {
 						color: white;
 					}
                     &:hover {
                         background: white;
-                        outline: 2px solid $soft-red;
+                        border: 2px solid $soft-red;
                         color: $soft-red;
                     }
 				}

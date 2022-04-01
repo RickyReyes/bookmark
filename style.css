@@ -112,7 +112,7 @@ a {
   color: white;
 }
 
-.mobile-menu .mobile-menu-nav .login-container {
+.mobile-menu .mobile-menu-nav .mobile-login-container {
   width: 100%;
   border: 2px solid white;
   border-radius: 5px;
@@ -121,11 +121,11 @@ a {
   padding: .6rem 0;
 }
 
-.mobile-menu .mobile-menu-nav .login-container:hover {
+.mobile-menu .mobile-menu-nav .mobile-login-container:hover {
   border-color: #5368df;
 }
 
-.mobile-menu .mobile-menu-nav .login-container:hover a {
+.mobile-menu .mobile-menu-nav .mobile-login-container:hover a {
   color: #5368df;
 }
 
@@ -857,13 +857,14 @@ footer .social-logo-flex .social-logo:hover {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: 2px solid transparent;
   }
   .header-nav li:last-child a:visited {
     color: white;
   }
   .header-nav li:last-child a:hover {
     background: white;
-    outline: 2px solid #fa5757;
+    border: 2px solid #fa5757;
     color: #fa5757;
   }
   h2 {
